@@ -10,7 +10,7 @@ export function getDistance(lat1, lon1, lat2, lon2) {
   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
   return R * c; // distance in meters
 }
-
+//location
 // Get current user location
 export function getCurrentLocation() {
   return new Promise((resolve, reject) => {
