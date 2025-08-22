@@ -216,13 +216,7 @@ metadata:
   test_sequence: 1
 
 test_plan:
-  current_focus:
-    - "Login Flow"
-    - "Welcome Page"
-    - "Main Hub Navigation"
-    - "Create Request"
-    - "Location Handling"
-    - "Request Management"
+  current_focus: []
   stuck_tasks: []
   test_all: true
   test_priority: "high_first"
