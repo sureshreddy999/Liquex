@@ -9,7 +9,7 @@ import RaiseRequestPage from './pages/RaiseRequestPage';
 import RequestResponsePage from './pages/RequestResponsePage';
 import ChatPage from './pages/ChatPage';
 import './App.css';
-
+//App
 function ProtectedRoute({ children }) {
   const { currentUser } = useAuth();
   return currentUser ? children : <Navigate to="/login" />;
